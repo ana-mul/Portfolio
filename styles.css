@@ -1,0 +1,58 @@
+/*FUENTE*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,600&family=Inter:wght@300&family=Karla:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(236, 240, 243);
+}
+
+:root {
+  --font-color: rgb(255, 1, 79);
+  --font-primary: "Poppins", sans-serif;
+}
+
+/*HEADER*/
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+header img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin: 15px 0px 10px 100px;
+}
+.navbar {
+  gap: 35px;
+  position: fixed;
+  right: 150px;
+  list-style: none;
+  font-family: var(--font-primary);
+  font-size: 11px;
+  text-transform: uppercase;
+  margin: 27px 10px 10px 0px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+.navbar-btn {
+  position: absolute;
+  right: 10px;
+  padding: 6px 28px;
+  border: none;
+  border-radius: 6%;
+  margin: 25px 10px 10px 0px;
+  text-transform: uppercase;
+  overflow: hidden;
+  box-shadow: inset 0px 5px 12px rgba(108, 108, 108, 0.364), 0px 5px 12px rgba(108, 108, 108, 0.364);
+}
+
+.btn-a {
+  color: var(--font-color);
+  font-size: 10px;
+  font-weight: 500;
+}
+
