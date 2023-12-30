@@ -129,12 +129,17 @@ main i {
   height: 400px;
 }
 /*FEATURES*/
+.features{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .features .subtitle-one{
   font-size: 11px;
   color: var(--font-color);
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   margin-left:150px;
   padding-top: 100px;
 }
@@ -153,21 +158,23 @@ main i {
   gap:30px;
   justify-content: center;
 }
-.card{
+.card-feat{
   width:300px;
+  height: 210px;
   padding: 25px;
   justify-content: center;
   gap: 10px;
   border:6px solid white;
   border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.538);
   background: linear-gradient(to bottom right, #78a1bc00, #ffffff);
   background-color: none;
 }
-.card h3{
+.card-feat h3{
   font-size: 17px;
   background-color: transparent;
 }
-.card p{
+.card-feat p{
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 0.5px;
@@ -178,4 +185,75 @@ main i {
   color: var(--font-color);
   margin: 0px 0px 10px 15px;
   background-color: transparent;
+}
+/*PORTFOLIO*/
+.portfolio{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio-h3{
+  font-size: 11px;
+  color: var(--font-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-left:150px;
+  padding-top: 100px;
+  text-align: center;
+}
+.portfolio-h2{
+  color:var(--font-color-two);
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-left:150px;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+.cont-port{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:30px;
+  justify-content: center;
+}
+.img-port{
+  height: 130px;
+  width: 240px;
+  margin-top:20px;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+  position: relative;
+  left:15px;
+}
+.card-port{
+  border: 1px solid blue;
+  border-radius: 20px;
+  width: 280px;
+  height: 300px;
+  justify-content: center;
+}
+.cont-port h3{
+  font-size: 9px;
+  color: var(--font-color);
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left:15px;
+}
+.cont-port span{
+  font-size: 9px;
+  color: var(--font-color-two);
+  font-weight: 500;
+  position: relative;
+  right:80px;
+  bottom:27px;
+}
+.cont-port h2{
+  font-size: 16px;
+  font-weight: 500;
+  margin-left:15px;
+  position: relative;
+  bottom:15px;
 }
