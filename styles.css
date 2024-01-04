@@ -21,7 +21,7 @@ header {
   z-index: 9999;
   background-color: transparent;
 }
-header img {
+header img { /*CAMBIAR */
   width: 50px;
   height: 50px;
   border: 1px solid black;
@@ -145,7 +145,7 @@ main i {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1.5px;
-  margin-left: 150px;
+  margin-left: 160px;
   padding-top: 100px;
 }
 .features h2 {
@@ -153,26 +153,25 @@ main i {
   font-size: 40px;
   letter-spacing: 1px;
   font-weight: 700;
-  margin-left: 150px;
+  margin-left: 160px;
   padding-bottom: 20px;
 }
 .cont-feat {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 35px;
   justify-content: center;
 }
 .card-feat {
-  width: 300px;
+  width: 290px;
   height: 210px;
   padding: 25px;
   justify-content: center;
   gap: 10px;
-  border: 6px solid white;
   border-radius: 10px;
-  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.538), 2px 5px 10px -5px rgba(14, 14, 15, 0.782);
-  background: linear-gradient(to bottom right, #78a1bc00, #ffffff);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.701), 2px 5px 10px -5px rgba(14, 14, 15, 0.782);
+  background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
   background-color: none;
 }
 .card-feat h3 {
@@ -242,7 +241,7 @@ main i {
 .card-port {
   border-radius: 20px;
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.701), 2px 5px 10px -5px rgba(14, 14, 15, 0.782);
-  background: linear-gradient(to bottom right, #adb6bc00, #adb6bc00);
+  background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
   background-color: none;
   width: 280px;
   height: 300px;
@@ -302,6 +301,7 @@ main i {
   padding-bottom: 20px;
   line-height: 50px;
 }
+/* CONTENEDOR SUPERIOR */
 .cont-top{
   display: flex;
   flex-direction: row;
@@ -312,7 +312,7 @@ main i {
   width:78%;
   border-radius: 8px;
   box-shadow: -10px -12px 10px -5px rgba(255, 255, 255, 0.701), 2px 5px 10px -5px rgba(71, 73, 75, 0.214);
-  background: linear-gradient(to bottom right, #b1b6ba44, #f5f6f6e2);
+  background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
   background-color: none;
 }
 .card-top{
@@ -328,14 +328,15 @@ main i {
   padding:23px 70px;
   border-radius: 8px;
   box-shadow: -10px -15px 10px -5px rgba(255, 255, 255, 0.701), 2px 5px 10px -5px rgba(56, 56, 58, 0.403);
-  background: linear-gradient(to bottom right, #cfd2d444, #f5f6f6);
+  background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
   z-index:9999;
 }
+/* CONTENEDOR EDUCACION */
 .cont-big{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding:90px;
+  padding:10px 90px;
 }
 .cont-res-izq-span, .cont-res-der-span{
   font-size: 10px;
@@ -350,15 +351,25 @@ main i {
   letter-spacing: 1px;
   margin-top:6px;
 }
+.cont-res-izq-h2, .cont-res-izq-span{
+  position: relative;
+  right:15px;
+}
+.cont-res-der-h2, .cont-res-der-span{
+  position: relative;
+  left:35px;
+} 
 .card-h2{
   font-size: 17px;
   color: var(--font-color-three);
   font-weight: 500;
+  background-color: transparent;
 }
 .card-h3{
   font-size: 10.5px;
   color: var(--font-color-two);
   font-weight: 400;
+  background-color: transparent;
 }
 .card-span{
   font-size: 9px;
@@ -367,10 +378,44 @@ main i {
   padding:5px 8px;
   border-radius: 4px;
   box-shadow: -10px -15px 10px -5px rgba(255, 255, 255, 0.701), 2px 5px 10px -5px rgba(56, 56, 58, 0.403);
-  background: linear-gradient(to bottom right, #cfd2d444, #f5f6f6);
+  background: white;
 }
 .resume p{
   font-size: 11px;
   color: black;
   font-weight: 400;
+  background-color: transparent;
+  padding-top:15px;
+}
+.card-edu, .card-job{
+  border-radius: 8px;
+  box-shadow: -10px -15px 10px -5px rgba(255, 255, 255, 0.701), 2px 5px 10px -5px rgba(56, 56, 58, 0.403);
+  background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
+  padding:30px;
+  margin:30px 0px;
+  width: 400px;
+}
+.card-job{
+  margin-left:60px;
+}
+.card-edu{
+  margin-left: 10px;
+  margin-top:29px;
+}
+.cont-res-izq .card-span{
+  position: relative;
+  left:300px;
+  bottom:35px;
+}
+.cont-res-der .card-span{
+  position: relative;
+  left:300px;
+  bottom:35px;
+}
+.divisor-line{
+  background: linear-gradient(to bottom right, #aac2d32e, #dbe7e752);
+  width:340px;
+  height:1.5px;
+  position: relative;
+  bottom:80px;
 }
