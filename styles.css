@@ -113,6 +113,10 @@ main h1 {
   line-height: 60px;
   padding-top: 10px;
 }
+.stick{
+  color: var(--font-color);
+  font-weight: 200;
+}
 .make-red {
   color: var(--font-color);
 }
@@ -490,7 +494,7 @@ main i {
   position: absolute;
   top:30px;
   box-shadow: 0 0 10px 5px rgba(214, 214, 215, 0.407),
-  2px 5px 10px -5px rgba(147, 148, 148, 0.252);
+  2px 5px 10px -5px rgba(147, 148, 148, 0.284);
 }
 .div-shortizq-two{
   top:275px;
@@ -507,6 +511,8 @@ main i {
   position: relative;
   top:25px;
   right:4px;
+  box-shadow: 0 0 10px 5px rgba(214, 214, 215, 0.407),
+  2px 5px 10px -5px rgba(147, 148, 148, 0.284);
 }
 .div-circleizq-two{
   top:260px;
@@ -530,7 +536,7 @@ main i {
   left:0px;
   top:30px;
   box-shadow: 0 0 10px 5px rgba(214, 214, 215, 0.407),
-  2px 5px 10px -5px rgba(147, 148, 148, 0.252);
+  2px 5px 10px -5px rgba(147, 148, 148, 0.284);
 }
 .div-shortder-two{
   top:275px;
@@ -547,6 +553,8 @@ main i {
   position: relative;
   top:25px;
   right:4px;
+  box-shadow: 0 0 10px 5px rgba(214, 214, 215, 0.407),
+  2px 5px 10px -5px rgba(147, 148, 148, 0.284);
 }
 .div-circleder-two{
   top:260px;
