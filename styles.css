@@ -84,6 +84,8 @@ header a {
   transition: transform 0.2s;
 }
 
+
+
 /*MAIN*/
 main {
   display: flex;
@@ -166,6 +168,9 @@ main i {
     2px 5px 10px -5px rgba(112, 116, 118, 0.795);
   border-radius: 10px;
 }
+
+
+
 /*FEATURES*/
 .features {
   display: flex;
@@ -227,6 +232,8 @@ main i {
   margin: 0px 0px 10px 15px;
   background-color: transparent;
 }
+
+
 
 /*PORTFOLIO*/
 .portfolio {
@@ -309,6 +316,8 @@ main i {
   background-color: transparent;
 }
 
+
+
 /*RESUME*/
 .resume {
   display: flex;
@@ -335,6 +344,7 @@ main i {
   padding-bottom: 20px;
   line-height: 50px;
 }
+
 /* CONTENEDOR SUPERIOR */
 .cont-top {
   display: flex;
@@ -367,6 +377,7 @@ main i {
   background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
   z-index: 9999;
 }
+
 /* CONTENEDOR EDUCACION */
 .cont-big {
   display: flex;
@@ -381,8 +392,7 @@ main i {
   font-weight: 500;
   letter-spacing: 1px;
 }
-.cont-res-izq-h2,
-.cont-res-der-h2 {
+.cont-res-izq-h2, .cont-res-der-h2{
   font-size: 25px;
   color: var(--font-color-three);
   font-weight: 800;
@@ -437,9 +447,10 @@ main i {
   padding: 30px;
   margin: 30px 0px;
   width: 400px;
+  z-index: 9999;
 }
 .card-job {
-  margin-left: 60px;
+  margin-left: 65px;
 }
 .card-edu {
   margin-left: 10px;
@@ -461,6 +472,87 @@ main i {
   height: 1.5px;
   position: relative;
   bottom: 80px;
+}
+
+/*LINEAS CRONOLOGIA*/
+.div-large-izq{
+  width: 4px;
+  height: 700px;
+  background-color:rgba(165, 163, 163, 0.286);
+  position: absolute;
+  left: 175px;
+  top:2410px;
+}
+.div-short-izq{
+  width: 30px;
+  height: 4px;
+  background-color:rgba(165, 163, 163, 0.286);
+  position: absolute;
+  top:30px;
+  box-shadow: 0 0 10px 5px rgba(214, 214, 215, 0.407),
+  2px 5px 10px -5px rgba(147, 148, 148, 0.252);
+}
+.div-shortizq-two{
+  top:275px;
+}
+.div-shortizq-three{
+  top:518px;
+}
+.div-circle-izq{
+  width: 12px;
+  height: 12px;
+  background-color:white;
+  border:3px solid rgba(165, 163, 163, 0.385); 
+  border-radius: 50px;
+  position: relative;
+  top:25px;
+  right:4px;
+}
+.div-circleizq-two{
+  top:260px;
+}
+.div-circleizq-three{
+  top:490px;
+}
+.div-large-der{
+  width: 4px;
+  height: 700px;
+  background-color:rgba(165, 163, 163, 0.286);
+  position: absolute;
+  right: 622px;
+  top:2410px;
+}
+.div-short-der{
+  width: 30px;
+  height: 4px;
+  background-color:rgba(165, 163, 163, 0.286);
+  position: absolute;
+  left:0px;
+  top:30px;
+  box-shadow: 0 0 10px 5px rgba(214, 214, 215, 0.407),
+  2px 5px 10px -5px rgba(147, 148, 148, 0.252);
+}
+.div-shortder-two{
+  top:275px;
+}
+.div-shortder-three{
+  top:518px;
+}
+.div-circle-der{
+  width: 12px;
+  height: 12px;
+  background-color:white;
+  border:3px solid rgba(165, 163, 163, 0.385); 
+  border-radius: 50px;
+  position: relative;
+  top:25px;
+  right:4px;
+}
+.div-circleder-two{
+  top:260px;
+}
+.div-circleder-three{
+  top:490px;
 }
 
 /*BLOG*/
@@ -542,6 +634,8 @@ main i {
   background-color: transparent;
 }
 
+
+
 /*CONTACT*/
 .contact {
   display: flex;
@@ -574,6 +668,7 @@ main i {
   flex-wrap: wrap;
   gap: 10px;
 }
+
 /*CONTENEDOR IZQUIERDO*/
 .cont-contact-izq {
   display: flex;
@@ -647,6 +742,7 @@ main i {
     0px 2px 12px rgba(84, 101, 109, 0.364);
   background-color: transparent;
 }
+
 /*CONTENDERO DERECHO*/
 form {
   display: flex;
@@ -723,6 +819,8 @@ button:active {
   display: flex;
   flex-direction: column;
 }
+
+
 
 /*FOOTER*/
 footer{
