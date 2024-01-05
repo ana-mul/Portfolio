@@ -12,7 +12,26 @@
   --font-color-two: rgb(60, 62, 65);
   --font-color-three: rgb(30, 33, 37);
 }
-
+.div-divisor{
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to bottom right, #b6c7d22e, #dbe7e752);
+  width: 870px;
+  height: 2px;
+  position: relative;
+  top:60px;
+  left:10px;
+}
+.div-divisor-f{
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to bottom right, #b6c7d22e, #dbe7e752);
+  width: 870px;
+  height: 2.5px;
+  position: relative;
+  top:50px;
+  left:30px;
+}
 /*HEADER*/
 header {
   display: flex;
@@ -122,6 +141,15 @@ main i {
   margin: 7px;
   box-shadow: inset 0px 2px 12px rgba(184, 218, 222, 0.233),
     0px 2px 12px rgba(84, 101, 109, 0.364);
+}
+.fa-invision{
+  color: var(--font-color);
+}
+.fa-sketch{
+  color:rgb(210, 146, 27);
+}
+.fa-figma{
+  color:blue;
 }
 .span-text {
   text-transform: uppercase;
@@ -286,7 +314,7 @@ main i {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 80px 50px 10px;
+  padding: 30px 50px 10px ;
 }
 .resume-h3 {
   font-size: 11px;
@@ -440,7 +468,7 @@ main i {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 40px 50px;
+  padding: 50px 50px;
 }
 .blog-h3 {
   font-size: 11px;
@@ -519,7 +547,7 @@ main i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .contact-h3 {
   font-size: 11px;
