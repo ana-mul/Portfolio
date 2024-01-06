@@ -13,7 +13,7 @@
   --font-color-three: rgb(30, 33, 37);
 }
 
-/*LINEAS ENTRE SECCIONES*/
+/*--------------------------------------LINEAS ENTRE SECCIONES-----------------------------------------*/
 .div-divisor {
   display: flex;
   align-items: center;
@@ -34,17 +34,17 @@
   top: 50px;
   left: 30px;
 }
-/*RESPONSIVE LINEAS*/
+/*--------------------------------------RESPONSIVE LINEAS-----------------------------------------*/
 @media screen and (max-width: 576px) {
-  .div-divisor{
+  .div-divisor {
     display: none;
   }
-  .div-divisor-f{
+  .div-divisor-f {
     display: none;
   }
 }
 
-/*HEADER*/
+/*--------------------------------------HEADER-----------------------------------------*/
 header {
   display: flex;
   flex-direction: row;
@@ -111,7 +111,7 @@ header a {
   background-color: transparent;
 }
 
-/* RESPONSIVE HEADER */
+/*--------------------------------------RESPONSIVE HEADER-----------------------------------------*/
 @media screen and (max-width: 576px) {
   header img {
     margin: 10px 0px 10px 10px;
@@ -151,10 +151,7 @@ header a {
   }
 }
 
-
-
-
-/*MAIN*/
+/*--------------------------------------MAIN-----------------------------------------*/
 main {
   display: flex;
   padding: 150px 150px 10px;
@@ -246,8 +243,7 @@ main i {
   border-radius: 10px;
 }
 
-
-/* RESPONSIVE MAIN */
+/*--------------------------------------RESPONSIVE MAIN-----------------------------------------*/
 @media screen and (max-width: 576px) {
   main {
     padding: 150px 20px 10px;
@@ -285,9 +281,7 @@ main i {
   }
 }
 
-
-
-/*FEATURES*/
+/*--------------------------------------FEATURES-----------------------------------------*/
 .features {
   display: flex;
   justify-content: center;
@@ -349,7 +343,7 @@ main i {
   background-color: transparent;
 }
 
-/*PORTFOLIO*/
+/*--------------------------------------PORTFOLIO-----------------------------------------*/
 .portfolio {
   display: flex;
   align-items: center;
@@ -430,7 +424,7 @@ main i {
   background-color: transparent;
 }
 
-/*RESUME*/
+/*--------------------------------------RESUME-----------------------------------------*/
 .resume {
   display: flex;
   align-items: center;
@@ -457,40 +451,76 @@ main i {
   line-height: 50px;
 }
 
-/* CONTENEDOR SUPERIOR */
+/*--------------------------------------CONTENEDOR SUPERIOR-----------------------------------------*/
 .cont-top {
-  display: flex;
+  display:flex;
   flex-direction: row;
-  justify-content: end;
+  flex-wrap: wrap;
   gap: 170px;
-  position: relative;
-  padding: 23px 50px;
+  padding: 20px 50px;
   width: 78%;
   border-radius: 8px;
-  box-shadow: 0 0 10px 5px rgba(222, 231, 235, 0.575),
+  box-shadow: 0 0 10px 5px rgba(163, 168, 170, 0.314),
     2px 5px 10px -5px rgba(74, 96, 118, 0.997);
   background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
   background-color: none;
+  margin-bottom: 20px;
 }
 .card-top {
   font-size: 12px;
   font-weight: 500;
   background-color: transparent;
+  text-decoration: none;
+  color: black;
 }
-.card-ed {
+.card-ed:hover {
   color: var(--font-color);
-  position: absolute;
-  left: 1px;
-  top: -1px;
-  padding: 23px 70px;
   border-radius: 8px;
-  box-shadow: 0 0 10px 5px rgba(222, 231, 235, 0.575),
+  box-shadow: 0 0 10px 5px rgba(163, 168, 170, 0.314),
     2px 5px 10px -5px rgba(74, 96, 118, 0.997);
   background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
-  z-index: 9999;
+  padding: 23px 60px;
+  position: absolute;
+  left:128px;
+  top:2611px;
+}
+.card-ps:hover{
+    color: var(--font-color);
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(163, 168, 170, 0.314),
+      2px 5px 10px -5px rgba(74, 96, 118, 0.997);
+    background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
+    padding: 23px 60px;
+    position: absolute;
+    left:328px;
+    top:2611px;
+}
+.card-ex:hover{
+  color: var(--font-color);
+  border-radius: 8px;
+  box-shadow: 0 0 10px 5px rgba(163, 168, 170, 0.314),
+    2px 5px 10px -5px rgba(74, 96, 118, 0.997);
+  background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
+  padding: 23px 70px;
+  position: absolute;
+  left:628px;
+  top:2611px;
+}
+.card-in:hover{
+  color: var(--font-color);
+  border-radius: 8px;
+  box-shadow: 0 0 10px 5px rgba(163, 168, 170, 0.314),
+    2px 5px 10px -5px rgba(74, 96, 118, 0.997);
+  background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
+  padding: 23px 70px;
+  position: absolute;
+  left:960px;
+  top:2611px;
 }
 
-/* CONTENEDOR EDUCACION */
+
+
+/*--------------------------------------CONTENEDOR EDUCACION-----------------------------------------*/
 .cont-big {
   display: flex;
   flex-direction: row;
@@ -587,7 +617,7 @@ main i {
   bottom: 80px;
 }
 
-/*LINEAS CRONOLOGIA*/
+/*-------------------------------------LINEAS CRONOLOGIA-----------------------------------------*/
 /*IZQUIERDA*/
 .cont-res-izq {
   position: relative;
@@ -680,7 +710,7 @@ main i {
   top: 490px;
 }
 
-/*BLOG*/
+/*--------------------------------------BLOG-----------------------------------------*/
 .blog {
   display: flex;
   align-items: center;
@@ -759,7 +789,7 @@ main i {
   background-color: transparent;
 }
 
-/*CONTACT*/
+/*--------------------------------------CONTACT-----------------------------------------*/
 .contact {
   display: flex;
   flex-direction: column;
@@ -792,7 +822,7 @@ main i {
   gap: 10px;
 }
 
-/*CONTENEDOR IZQUIERDO*/
+/*--------------------------------------CONTENEDOR IZQUIERDO-----------------------------------------*/
 .cont-contact-izq {
   display: flex;
   flex-direction: column;
@@ -866,7 +896,7 @@ main i {
   background-color: transparent;
 }
 
-/*CONTENDERO DERECHO*/
+/*--------------------------------------CONTENEDOR DERECHO-----------------------------------------*/
 form {
   display: flex;
   flex-direction: column;
@@ -943,20 +973,18 @@ button:active {
   flex-direction: column;
 }
 
-/*RESPONSIVE CONTACT*/
-@media screen and (max-width:576px) {
-  .contact{
+/*--------------------------------------RESPONSIVE CONTACT-----------------------------------------*/
+@media screen and (max-width: 576px) {
+  .contact {
     padding: 20px 30px;
   }
-  .cont-contact-izq{
+  .cont-contact-izq {
     position: relative;
-    left:70px;
-  } 
+    left: 70px;
+  }
 }
 
-
-
-/*FOOTER*/
+/*--------------------------------------FOOTER-----------------------------------------*/
 footer {
   display: flex;
   flex-direction: column;
