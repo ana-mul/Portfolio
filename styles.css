@@ -481,19 +481,19 @@ main i {
   background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
   padding: 23px 60px;
   position: absolute;
-  left:128px;
-  top:2611px;
+  left:178px;
+  top:2228px;
 }
 .card-ps:hover{
-    color: var(--font-color);
-    border-radius: 8px;
-    box-shadow: 0 0 10px 5px rgba(163, 168, 170, 0.314),
-      2px 5px 10px -5px rgba(74, 96, 118, 0.997);
-    background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
-    padding: 23px 60px;
-    position: absolute;
-    left:328px;
-    top:2611px;
+  color: var(--font-color);
+  border-radius: 8px;
+  box-shadow: 0 0 10px 5px rgba(163, 168, 170, 0.314),
+    2px 5px 10px -5px rgba(74, 96, 118, 0.997);
+  background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
+  padding: 23px 60px;
+  position: absolute;
+  left:388px;
+  top:2228px;
 }
 .card-ex:hover{
   color: var(--font-color);
@@ -503,8 +503,8 @@ main i {
   background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
   padding: 23px 70px;
   position: absolute;
-  left:628px;
-  top:2611px;
+  left:660px;
+  top:2228px;
 }
 .card-in:hover{
   color: var(--font-color);
@@ -514,10 +514,9 @@ main i {
   background: linear-gradient(to bottom right, #aac2d314, #f5f6f6);
   padding: 23px 70px;
   position: absolute;
-  left:960px;
-  top:2611px;
-}
-
+  left:890px;
+  top:2228px;
+} 
 
 
 /*--------------------------------------CONTENEDOR EDUCACION-----------------------------------------*/
